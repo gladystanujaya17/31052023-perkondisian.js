@@ -20,7 +20,7 @@ switch(pesanan) {
         break;
 }
 
-// CONTOH 1
+// CONTOH 2
 
 //switch case jangan lupa pakai break pada setiap case dan default
 var pesanan = 'lemon tea'
@@ -37,5 +37,24 @@ switch(pesanan) {
         break;
     default:
         console.log('Minuman tidak ada di menu')
+        break;
+}
+
+// CONTOH 3
+
+var angka = 3
+
+switch(angka) {
+    case 1:
+        console.log('Angka 1')
+        break;
+    case 2:
+        console.log('Angka 2')
+        break;
+    case 3:
+        console.log('Angka 3')
+        break;
+    default:
+        console.log('Tidak ada angka lagi')
         break;
 }
